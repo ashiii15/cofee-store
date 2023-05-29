@@ -38,7 +38,7 @@
 }
 .content{
     display: flex;
-    margin: 10px;
+    margin: auto;
     align-items: center;
     width: 100%;
     flex-wrap: wrap;
@@ -46,17 +46,21 @@
 }
 .photo-col{
     flex-basis: 50%;
+    display: flex;
+    justify-content: center;
 }
 .text-col{
     flex-basis: 50%;
+padding-left: 2%;
+padding-right: 2%;
 }
 .text-col h2{
-font-size: 50px;
+font-size: 35px;
 font-weight: 400;
     padding-bottom: 8px;
 }
 .text-col p{
-    font-size: 20px;
+    font-size: 17px;
     padding-bottom: 8px;
 }
 .btn{
